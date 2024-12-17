@@ -3,6 +3,8 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+//        maven { url 'https://maven.aliyun.com/repository/public/' }
+//        maven { url 'https://api.xposed.info/' }
     }
 }
 dependencyResolutionManagement {
@@ -10,7 +12,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
+//        jcenter()
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+//        maven { url 'https://api.xposed.info/' }
     }
 }
 rootProject.name = "CrifanXposedHook"

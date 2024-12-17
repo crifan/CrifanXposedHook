@@ -21,7 +21,7 @@
         <!-- 模块描述，显示在xposed模块列表那里第二行 -->
         <meta-data
             android:name="xposeddescription"
-            android:value="crifan测试XPosed插件hook" />
+            android:value="crifan测试XPosed(LSPosed)插件的hook 20241217" />
 
         <!-- 最低xposed版本号。对于Xposed来说，最新的是：82
             注：后续如果需要用EdXposed最新的，可以改为：93
